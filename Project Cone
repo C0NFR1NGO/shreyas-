@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Apr 12 15:42:44 2020
+
+@author: shrey
+"""
+import time
+print("This app will calculate the surface area,lateral surface area,perimeter and volume of any Sphere")
+R=float(input("Radius-"))
+H=float(input("Height-"))
+L=float(input("Length of curve slant-"))
+P=22/7
+time.sleep(1)
+print("Volume-"+str(P*R*R*H/3))
+time.sleep(1)
+print("Total Surface Area-"+str(P*R*(R+((H**2+R**2)**1/2))))
+time.sleep(1)
+print("Lateral surface area-"+str(P*R*((H*H+R*R)**1/2)))
+
+
+
