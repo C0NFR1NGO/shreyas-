@@ -1,0 +1,9 @@
+"""
+"""
+print("This program will find out the smallest number among 8 numbers input by the user")
+lst = []
+num = 8 
+for n in range(num):
+    numbers = float(input('Enter number '))
+    lst.append(numbers) 
+print("The smallest number in the list is :", min(lst))
