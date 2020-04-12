@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Apr 12 16:10:51 2020
+
+@author: shrey
+"""
+print("This is a weight conversion program")
+c=input("Do you want to convert from pounds to kg, or, kg to pound-")
+if c=="Kg to Pounds" or "kg to pounds" or "KG to pounds" or "kg to Pounds":
+    k=float(input("Please input the ammount of weight you want to convert-"))
+    print(str(k)+" kg is "+str(k*2.205)+" pounds")
+elif c=="Pounds to Kg" or "pounds to KG" or "Pounds to kg":
+    p=float(input("Please key kn the ammount of weight you want to convert-"))
+    print(str(p)+" pounds is "+str(p/2.205)+" kg")
+else:
+    print("Invalid Unit")
+    
+    
